@@ -1,0 +1,20 @@
+npm init -y for package.json
+
+New-Item server.js -ItemType File
+
+npm i express
+
+npm i nodemon -D
+
+add: "start": "node server" and "dev": "nodemon server" to "scripts" of package.json
+
+run: "npm create-react-app ." inside client
+
+"follow instructions from video here, 5 mins in"
+
+cd into server then: run npm dev
+
+
+
+to run cd into server: npm run dev
+cd into client: npm start
